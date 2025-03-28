@@ -15,7 +15,7 @@ async function getImages() {
   console.log(data);
 
   // If the data array is empty, exit early
-  if (!data || data.length === 0) return;
+  //if (!data || data.length === 0) return;
 
   // Remove old results if it's the first page
   if (page === 1) {
